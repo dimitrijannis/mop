@@ -1,0 +1,21 @@
+naam = input("Wat is je naam? ")
+def greet(naam):
+  print("Hallo, " + naam + "!")
+
+greet (naam)
+
+leeftijd = input("Hoe oud ben je? ")
+def age(leeftijd):
+  if int(leeftijd) < 18:
+    print("amai, " + str(leeftijd) + " dat is nog jong!")
+  else: 
+    print("Jij bent al oud")
+age(leeftijd)
+mop = input("Wil je een mop horen? ")
+def lol(mop):
+  if mop.lower() == "ja":
+    print(""""Leuk, er zaten eens twee apen int bad, zegt de ene "oeh oeh oeh en de andere, ja doe er dan wat koud water bij hé""")
+  else:
+    print("saaie piet")
+
+lol(mop)
